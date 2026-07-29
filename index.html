@@ -13,8 +13,8 @@
       header{display:flex;align-items:center;justify-content:space-between}
       .logo{display:flex;gap:12px;align-items:center}
       .logo-img{width:56px;height:56px;border-radius:8px;object-fit:cover}
-      .cover{width:100%;height:320px;border-radius:12px;overflow:hidden;margin-bottom:18px;background:#061226;display:block}
-      .cover img{width:100%;height:100%;object-fit:cover;display:block;filter:contrast(1.02) saturate(1.05)}
+      .cover{width:100%;height:360px;border-radius:12px;overflow:hidden;margin-bottom:18px;background:#061226;display:block}
+      .cover img{width:100%;height:100%;object-fit:contain;object-position:center;display:block;background:#061226}
       h1{margin:0;font-size:28px}
       p.lead{color:var(--muted);margin-top:8px}
       .hero{background:rgba(255,255,255,0.02);padding:28px;border-radius:12px;margin-top:6px}
@@ -89,6 +89,20 @@
                     <div style="color:var(--muted);font-size:13px">Tools to learn, prototype, and scale ideas faster.</div>
                   </div>
                 </div>
+              </div>
+
+              <div class="card" style="margin-top:16px">
+                <h2 style="margin:0 0 8px 0">Applications</h2>
+                <p style="color:var(--muted);margin:0 0 8px 0">Syrax builds AI features and products across domains — here are common ways customers use our work:</p>
+                <ul style="color:var(--muted);padding-left:18px;margin:8px 0">
+                  <li><strong>Personal productivity:</strong> automated summaries, email triage, intelligent scheduling and task automation.</li>
+                  <li><strong>Home & device automation:</strong> voice assistants, contextual reminders, and smart routines that simplify daily life.</li>
+                  <li><strong>Health & wellness:</strong> personalized habit nudges, chronic-care assistants, and healthy-living recommendations.</li>
+                  <li><strong>Education & learning:</strong> tutoring helpers, adaptive learning paths, and content generation for educators.</li>
+                  <li><strong>Small business automation:</strong> customer-response bots, document extraction, and workflow automation to save time and cost.</li>
+                  <li><strong>Accessibility:</strong> real-time transcription, simplified interfaces, and multimodal assistive tools.</li>
+                </ul>
+                <p style="color:var(--muted);margin:6px 0 0 0">We also provide integrations, SDKs, and APIs so partners can embed Syrax capabilities into existing products and services.</p>
               </div>
 
               <a class="cta" href="mailto:contact@syraxai.studio">Talk to us</a>
