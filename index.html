@@ -7,31 +7,32 @@
     <meta name="description" content="DA NANG SEAPRODUCTS CORPORATION - trusted products and professional service.">
     <style>
       :root{
-        --bg:#07281d;
-        --card:#10452f;
+        --bg:#f7f9f8;
+        --card:#ffffff;
         --accent:#2e8b57;
         --accent-2:#4caf50;
-        --muted:#b8d8c2;
-        --white:#f4fbf7;
+        --muted:#5f6b64;
+        --text:#111827;
+        --border:#e5e7eb;
       }
       *{box-sizing:border-box}
-      body{margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;background:linear-gradient(135deg,#062418 0%, #0f3f2b 100%);color:var(--white);line-height:1.5}
+      body{margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;background:var(--bg);color:var(--text);line-height:1.5}
       .container{max-width:1100px;margin:48px auto;padding:24px}
       header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
       .logo{display:flex;gap:12px;align-items:center}
-      .logo-badge{width:72px;height:72px;flex-shrink:0;border-radius:14px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 16px rgba(0,0,0,0.25);border:1px solid rgba(255,255,255,0.16)}
+      .logo-badge{width:72px;height:72px;flex-shrink:0;border-radius:14px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 16px rgba(0,0,0,0.12);border:1px solid var(--border)}
       .logo-badge img{width:100%;height:100%;object-fit:cover;display:block;padding:4px;background:#fff}
-      .cover{width:100%;min-height:280px;max-height:360px;border-radius:14px;overflow:hidden;margin-bottom:16px;background:#0a2d20;display:block}
-      .cover img{width:100%;height:100%;object-fit:cover;display:block;object-position:center;background:#0a2d20}
-      h1{margin:0;font-size:28px}
+      .cover{width:100%;min-height:280px;max-height:360px;border-radius:14px;overflow:hidden;margin-bottom:16px;background:#f0f4f1;display:block;border:1px solid var(--border)}
+      .cover img{width:100%;height:100%;object-fit:cover;display:block;object-position:center;background:#f0f4f1}
+      h1{margin:0;font-size:28px;color:var(--text)}
       p.lead{color:var(--muted);margin-top:8px}
-      .hero{background:rgba(255,255,255,0.05);padding:28px;border-radius:14px}
+      .hero{background:var(--card);padding:28px;border-radius:14px;border:1px solid var(--border);box-shadow:0 8px 24px rgba(0,0,0,0.04)}
       .grid{display:grid;grid-template-columns:1.3fr 0.7fr;gap:20px}
-      .card{background:var(--card);padding:18px;border-radius:12px}
+      .card{background:var(--card);padding:18px;border-radius:12px;border:1px solid var(--border)}
       .split{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}
-      .stat{background:rgba(255,255,255,0.06);padding:12px;border-radius:8px;text-align:center}
+      .stat{background:#f8fbf9;padding:12px;border-radius:8px;text-align:center;border:1px solid var(--border)}
       .features{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
-      .feature{background:rgba(255,255,255,0.05);padding:12px;border-radius:8px}
+      .feature{background:#f8fbf9;padding:12px;border-radius:8px;border:1px solid var(--border)}
       .cta{display:inline-block;margin-top:16px;padding:10px 16px;background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;border-radius:8px;text-decoration:none}
       footer{margin-top:28px;color:var(--muted);font-size:14px}
       @media (max-width:800px){.grid{grid-template-columns:1fr}.container{margin:24px;padding:16px}.split,.features{grid-template-columns:1fr}}
@@ -104,7 +105,7 @@
               </div>
 
               <a class="cta" href="mailto:contact@danangseaproducts.com">Contact us</a>
-              <a class="cta" href="policies.html" style="background:transparent;border:1px solid rgba(255,255,255,0.12);margin-left:10px">Privacy Policy</a>
+              <a class="cta" href="policies.html" style="background:transparent;border:1px solid var(--border);color:var(--accent);margin-left:10px">Privacy Policy</a>
             </div>
 
             <aside>
