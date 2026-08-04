@@ -12,7 +12,10 @@
       .container{max-width:1100px;margin:48px auto;padding:24px}
       header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
       .logo{display:flex;gap:12px;align-items:center}
-      .logo-badge{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,#2563eb,#38bdf8);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px}
+      .logo-badge{width:56px;height:56px;border-radius:12px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(0,0,0,0.2)}
+      .logo-badge img{width:100%;height:100%;object-fit:cover;display:block}
+      .cover{width:100%;height:320px;border-radius:14px;overflow:hidden;margin-bottom:16px;background:#0b1220;display:block}
+      .cover img{width:100%;height:100%;object-fit:cover;display:block}
       h1{margin:0;font-size:28px}
       p.lead{color:var(--muted);margin-top:8px}
       .hero{background:rgba(255,255,255,0.04);padding:28px;border-radius:14px}
@@ -31,7 +34,9 @@
     <div class="container">
       <header>
         <div class="logo">
-          <div class="logo-badge">DS</div>
+          <div class="logo-badge">
+            <img src="logo_store.jpg" alt="DA NANG SEAPRODUCTS CORPORATION logo">
+          </div>
           <div>
             <h1>DA NANG SEAPRODUCTS CORPORATION</h1>
             <div style="color:var(--muted);font-size:13px">Trusted products, dependable service, and long-term partnerships.</div>
@@ -40,6 +45,10 @@
       </header>
 
       <main>
+        <div class="cover">
+          <img src="cover_image.jpg" alt="DA NANG SEAPRODUCTS CORPORATION cover image">
+        </div>
+
         <section class="hero">
           <div class="grid">
             <div>
