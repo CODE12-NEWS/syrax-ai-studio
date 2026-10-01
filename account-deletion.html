@@ -41,6 +41,16 @@
       h1 { margin: 0; font-size: 2rem; line-height: 1.2; }
       h2 { margin: 28px 0 8px; font-size: 1.2rem; }
       p, li { color: var(--muted); }
+      figure { margin: 14px 0 8px; }
+      figure img {
+        display: block;
+        width: min(100%, 320px);
+        max-height: 620px;
+        object-fit: contain;
+        object-position: top;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+      }
       .notice {
         margin-top: 22px;
         padding: 16px 18px;
@@ -74,8 +84,12 @@
 
       <h2>Delete Your Account in the App</h2>
       <ol>
-        <li>Open the <strong>Profile</strong> tab, then select <strong>Delete Account</strong>.</li>
-        <li>Review the deletion notice and select <strong>Delete Account</strong> to confirm. Select <strong>Keep Account</strong> to cancel.</li>
+        <li>Open the <strong>Profile</strong> tab, then select <strong>Delete Account</strong>.
+          <figure><img src="settings.jpg" alt="Profile settings screen with the Delete Account option"></figure>
+        </li>
+        <li>Review the deletion notice and select <strong>Delete Account</strong> to confirm. Select <strong>Keep Account</strong> to cancel.
+          <figure><img src="confirm.png" alt="Delete Account confirmation dialog"></figure>
+        </li>
       </ol>
       <div class="notice">
         <p>Account deletion is permanent. Your coins, watch history, and saved titles will be lost and cannot be recovered.</p>
